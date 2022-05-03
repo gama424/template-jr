@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto&family=Rubik&display=swap');
-
+/*importando fontes via Google Fonts*/
 
 
 
@@ -14,7 +14,7 @@
 
 
 
-/*telefones logo acima da navbar*/
+/*telefones acima da navbar*/
 .phone{
     width: 100%;
     background-color: #020085;
