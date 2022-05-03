@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto&family=Rubik&display=swap');
+
+
+
+
+* {    
+	margin: 0;
+	padding: 0;
+	font-family: 'Radio Canada', sans-serif;
+
+
+}
+
+
+
+.phone{
+    width: 100%;
+    background-color: #020085;
+	height: 15px;
+    display: flex;
+    justify-content: flex-end;
+	align-items: center;
+   
+}
+.phone p{
+    color: white;
+    margin-right: 17%;
+    font-size: 10px;
+
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    height: 60px;
+	margin: 25px 75px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle,
+[id^=drop] {
+	display: none; /*seletor de ids*/
+}
+
+nav { 
+	z-index: 1;
+    margin-top: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+	box-shadow: 1px 3px 5px #858585;
+	
+   
+}
+
+.logo{
+	margin: -1px -15px 5px;
+}
+
+.logo img {
+    width: 35%;
+	margin-bottom: 15px;
+	margin-left: 85px;
+	cursor: pointer;
+	
+
+	
+}
+
+
+nav ul {
+	list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+	
+	
+}
+	
+nav ul li {
+    margin: 0px;
+    display:inline-block;
+    float: left;
+    background-color: #ffffff;
+	z-index: 1;
+	color: aqua;	
+
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;	
+	color:#7a7a7a;
+	font-size: 17px;
+    text-decoration:none;
+    text-transform: uppercase;
+	
+}
+
+
+nav ul li ul li:hover { 
+background: #020085;
+
+
+}
+
+nav a:hover { 
+	background-color: #020085; 
+	color: white;
+	
+}
+
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+}
+	
+nav ul li:hover > ul {
+	display:inherit;
+	
+	
+}
+	
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+	background-color: #020085; 
+	
+	
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:170px; 
+	
+}
+
+
+
+
+
+
+/*slider*/
+.slide{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 0px;
+	z-index: 0;
+	background-color: #858585;
+}
+
+
+#slide {
+    width: 894px;
+    height: 290px;
+    position: relative;
+}
+
+#slide img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+}
+
+#slide img.selected { 
+    opacity: 1;
+}
+/*slider*/
+
+
+
+
+
+
+/*texto e imagem*/
+.text-image {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	color: #7a7a7a;
+	text-transform: uppercase;
+  }
+
+#text-image{
+	width: 45%;
+}
+
+  .text-image img{
+	  width: 65%;
+	  margin-bottom: 10px;
+	  margin-top: 5px;
+	  border-radius: 5px;
+	
+  }
+
+  .typewriter {
+    width: 70%;  
+    padding-left: 17%;
+    padding-top: 5%;
+	margin-left: 30px;
+}
+.typewriter h2{
+	margin-bottom: 10px;
+	font-size: 35px;
+	color: #858585;
+	margin-top: 20px;
+}
+
+.typewriter h3{
+	margin-top: 25px;
+}
+
+
+
+
+/*texto e imagem*/
+
+
+
+
+
+
+
+/*etapas do projeto*/
+
+
+
+.feed{
+    display: flex;
+    justify-content: space-evenly;
+	margin: 50px 13% 11%;
+	margin-bottom: 20px;
+
+  }
+
+  .feed img{
+    border-radius: 6px;
+     cursor: pointer;
+    
+  }
+ 
+ #text-h2{
+	text-transform: uppercase;
+    color: #7a7a7a;
+    padding-left: 16%;
+    margin-top: 55px;
+}
+ 
+
+/*etapas do projeto*/
+
+
+
+
+/*etapas do projeto legendas*/
+  .hoverwrap0 {
+	position: relative;
+	max-width: 500px;   
+	margin-left: -20px;
+	text-transform: uppercase;
+  }
+  
+  .hoverwrap0 img { 
+	  width: 100%; 
+	  box-shadow: 1px 1px 22px #000000;
+	  margin-bottom: 25px;
+
+}
+  
+  
+  .hovercap0 {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+   
+  
+	position: absolute;
+	bottom: 30px; left: 1px; 
+   
+	
+	background-color: #000000a2;
+	color: white;
+	font-size: 18px;
+  }
+  
+  
+  .hovercap0 {
+	visibility: none; opacity: 0;
+	transition: opacity 0.4s;
+  }
+  .hoverwrap0:hover .hovercap0 {
+	visibility: visible; opacity: 1;
+	
+  }  
+/*etapas do projeto legendas*/
+
+ 
+
+
+
+/*rodapé*/
+
+.rodapé ul{
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	color: #b4b4b4;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 10px 20% 10%;
+}
+
+.rodapé h1{
+	color: #b4b4b4;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.rodapé {
+	background-color: #444444;
+	height: 210px;
+	
+}
+
+
+
+
+
+/*responsivo*/
+
+@media all and (max-width : 768px) {
+
+    .container{
+        display: block;
+    }
+
+	.logo img {
+        float: left;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .btn-menu{
+        float: right;
+        cursor: pointer;
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+		margin-top: 1px;
+		margin-right: 15px;
+    }
+
+	nav {
+		margin: 0;
+	}
+
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	.toggle {
+        display: flex;
+        align-items: center;
+		background-color: #020085;
+		color:#FFF;
+		font-size: 17px;
+		text-decoration:none;
+        border:none;
+        padding: 0 15px;
+        height: 60px;
+	}
+
+	.toggle:hover {
+		background-color: #020085;
+	}
+
+	[id^=drop]:checked + ul {  /*seletor de ids*/
+		display: block;
+	}
+
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #020085;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+    nav ul ul ul a{	
+		color:#FFF;
+		font-size: 17px; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #020085; 
+	}
+
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+	}
+		
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+	}
+
+	.typewriter h2{
+		margin-bottom: 10px;
+		font-size: 25px;
+		padding: 10px;
+	}
+	
+	.typewriter h3{
+		margin-bottom: 10px;
+		margin-top: 15px;
+		font-size: 15px;
+		padding: 10px;
+	}
+	
+	.text-image img{
+		width: 75%;
+		margin-top: 35px;
+	}
+
+	.feed{
+		display: inline-block;
+		margin: 50px 11% 11%;
+		margin-bottom: 20px;
+	
+	  }
+	  /*slider*/
+.slide{
+	display: flex;
+	width: 100%;
+    justify-content: space-around;
+    align-items: center;
+	margin-top: 0px;
+	z-index: 0;
+	background-color: #858585;
+}
+
+.hoverwrap0 {
+	position: relative;
+
+	text-transform: uppercase;
+  }
+
+	
+}
+
+
