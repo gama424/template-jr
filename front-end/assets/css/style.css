@@ -8,11 +8,13 @@
 	padding: 0;
 	font-family: 'Radio Canada', sans-serif;
 
+/*zerando margins e paddings e selecionando a fonte para o site inteiro*/
 
 }
 
 
 
+/*telefones logo acima da navbar*/
 .phone{
     width: 100%;
     background-color: #020085;
@@ -30,7 +32,7 @@
 }
 
 
-
+/*conteudo da nav-submenu*/
 .container{
     width: 100%;
     max-width: 1140px;
@@ -57,6 +59,7 @@ nav {
    
 }
 
+/*estilizaçao da logo*/
 .logo{
 	margin: -1px -15px 5px;
 }
@@ -65,11 +68,10 @@ nav {
     width: 35%;
 	margin-bottom: 15px;
 	margin-left: 85px;
-	cursor: pointer;
-	
-
-	
+	cursor: pointer;	
 }
+/*estilizaçao da logo*/
+
 
 
 nav ul {
@@ -87,7 +89,6 @@ nav ul li {
     float: left;
     background-color: #ffffff;
 	z-index: 1;
-	color: aqua;	
 
 }
 
@@ -103,10 +104,9 @@ nav a {
 	
 }
 
-
+/*efeito hover*/
 nav ul li ul li:hover { 
 background: #020085;
-
 
 }
 
@@ -212,6 +212,7 @@ nav ul ul ul li {
 	
   }
 
+  /*estilizando efeito typerwriter*/
   .typewriter {
     width: 70%;  
     padding-left: 17%;
@@ -228,10 +229,6 @@ nav ul ul ul li {
 .typewriter h3{
 	margin-top: 25px;
 }
-
-
-
-
 /*texto e imagem*/
 
 
@@ -240,9 +237,7 @@ nav ul ul ul li {
 
 
 
-/*etapas do projeto*/
-
-
+/*etapas de um projeto*/
 
 .feed{
     display: flex;
@@ -264,14 +259,12 @@ nav ul ul ul li {
     padding-left: 16%;
     margin-top: 55px;
 }
- 
-
-/*etapas do projeto*/
+/*etapas de um projeto*/
 
 
 
 
-/*etapas do projeto legendas*/
+/*etapas de um projeto - legendas com efeito hover*/
   .hoverwrap0 {
 	position: relative;
 	max-width: 500px;   
@@ -286,7 +279,7 @@ nav ul ul ul li {
 
 }
   
-  
+  /*legendas com efeito hover*/
   .hovercap0 {
 	box-sizing: border-box;
 	width: 100%;
@@ -311,14 +304,13 @@ nav ul ul ul li {
 	visibility: visible; opacity: 1;
 	
   }  
-/*etapas do projeto legendas*/
+/*etapas de um projeto*/
 
  
 
 
 
 /*rodapé*/
-
 .rodapé ul{
 	display: flex;
 	justify-content: space-evenly;
@@ -341,13 +333,18 @@ nav ul ul ul li {
 	height: 210px;
 	
 }
-
+/*rodapé*/
 
 
 
 
 /*responsivo*/
 
+/*essa linha de codigo basicamente te da
+a opçao de ajustar o tamanho dos elementos quando o tamanho atingir
+768px como na linha abaixo, mas voce pode escolher outros tamanhos
+e entao selecionar os elementos e ajustar o tamanho deles
+de acordo com a tela que escolheu*/
 @media all and (max-width : 768px) {
 
     .container{
@@ -488,5 +485,8 @@ nav ul ul ul li {
 
 	
 }
-
+/*basicamente é refazer o site mas selecionado elementos
+especificos e ajustando para que fique responsivo
+nao precisa usar todos os elementos, basta usar os elementos
+"pai" que tudo se altera automaticamente*/
 
