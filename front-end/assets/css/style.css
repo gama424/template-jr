@@ -268,30 +268,27 @@ nav ul ul ul li {
   }  
 /*etapas de um projeto*/
 
-
-/*rodapé*/
-.rodapé ul{
-	display: flex;
-	justify-content: space-evenly;
-	list-style: none;
-	color: #b4b4b4;
-	text-transform: uppercase;
-	padding: 5px;
-	margin: 10px 20% 10%;
-}
-.rodapé h1{
-	color: #b4b4b4;
-	text-transform: uppercase;
-	text-align: center;
-
-}
-.rodapé {
-	background-color: #444444;
-	height: 210px;
-	
-}
-/*rodapé*/
-
+/*rodapé*/ 
+.rodapé ul{ 
+	display: flex; 
+	justify-content: space-evenly; 
+	list-style: none; 
+	color: #b4b4b4; 
+	text-transform: uppercase; 
+	padding: 20px; 
+   } 
+   .rodapé h1{ 
+	color: #b4b4b4; 
+	text-transform: uppercase; 
+	text-align: center; 
+	margin-top: 75px; 
+   } 
+   .rodapé { 
+	background-color: #444444; 
+	height: 210px; 
+	 
+   } 
+   /*rodapé*/
 
 /*responsivo*/
 /*essa linha de codigo basicamente te da
