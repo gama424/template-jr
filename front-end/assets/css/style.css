@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto&family=Rubik&display=swap');
 /*importando fontes via Google Fonts*/
 
-
-
 * {    
 	margin: 0;
 	padding: 0;
 	font-family: 'Radio Canada', sans-serif;
 
 /*zerando margins e paddings e selecionando a fonte para o site inteiro*/
-
 }
-
 
 
 /*telefones acima da navbar*/
@@ -30,7 +26,6 @@
     font-size: 10px;
 
 }
-
 
 /*conteudo da nav-submenu*/
 .container{
@@ -72,8 +67,6 @@ nav {
 }
 /*estilizaçao da logo*/
 
-
-
 nav ul {
 	list-style: none;
     position: relative;
@@ -109,13 +102,11 @@ nav ul li ul li:hover {
 background: #020085;
 
 }
-
 nav a:hover { 
 	background-color: #020085; 
 	color: white;
 	
 }
-
 
 nav ul ul {
 	display: none;
@@ -146,11 +137,6 @@ nav ul ul ul li {
 	
 }
 
-
-
-
-
-
 /*slider*/
 .slide{
 	display: flex;
@@ -161,13 +147,11 @@ nav ul ul ul li {
 	background-color: #858585;
 }
 
-
 #slide {
     width: 894px;
     height: 290px;
     position: relative;
 }
-
 #slide img{
     opacity: 0;
 
@@ -180,15 +164,10 @@ nav ul ul ul li {
 
     transition: opacity 800ms;
 }
-
 #slide img.selected { 
     opacity: 1;
 }
 /*slider*/
-
-
-
-
 
 
 /*texto e imagem*/
@@ -203,7 +182,6 @@ nav ul ul ul li {
 #text-image{
 	width: 45%;
 }
-
   .text-image img{
 	  width: 65%;
 	  margin-bottom: 10px;
@@ -225,20 +203,13 @@ nav ul ul ul li {
 	color: #858585;
 	margin-top: 20px;
 }
-
 .typewriter h3{
 	margin-top: 25px;
 }
 /*texto e imagem*/
 
 
-
-
-
-
-
 /*etapas de um projeto*/
-
 .feed{
     display: flex;
     justify-content: space-evenly;
@@ -247,12 +218,11 @@ nav ul ul ul li {
 
   }
 
-  .feed img{
+ .feed img{
     border-radius: 6px;
      cursor: pointer;
     
   }
- 
  #text-h2{
 	text-transform: uppercase;
     color: #7a7a7a;
@@ -260,8 +230,6 @@ nav ul ul ul li {
     margin-top: 55px;
 }
 /*etapas de um projeto*/
-
-
 
 
 /*etapas de um projeto - legendas com efeito hover*/
@@ -284,18 +252,12 @@ nav ul ul ul li {
 	box-sizing: border-box;
 	width: 100%;
 	padding: 10px;
-   
-  
 	position: absolute;
 	bottom: 30px; left: 1px; 
-   
-	
 	background-color: #000000a2;
 	color: white;
 	font-size: 18px;
   }
-  
-  
   .hovercap0 {
 	visibility: none; opacity: 0;
 	transition: opacity 0.4s;
@@ -305,9 +267,6 @@ nav ul ul ul li {
 	
   }  
 /*etapas de um projeto*/
-
- 
-
 
 
 /*rodapé*/
@@ -320,14 +279,12 @@ nav ul ul ul li {
 	padding: 5px;
 	margin: 10px 20% 10%;
 }
-
 .rodapé h1{
 	color: #b4b4b4;
 	text-transform: uppercase;
 	text-align: center;
 
 }
-
 .rodapé {
 	background-color: #444444;
 	height: 210px;
@@ -336,24 +293,19 @@ nav ul ul ul li {
 /*rodapé*/
 
 
-
-
 /*responsivo*/
-
 /*essa linha de codigo basicamente te da
 a opçao de ajustar o tamanho dos elementos quando o tamanho atingir
 768px como na linha abaixo, mas voce pode escolher outros tamanhos
 e entao selecionar os elementos e ajustar o tamanho deles
 de acordo com a tela que escolheu*/
 @media all and (max-width : 768px) {
-
     .container{
         display: block;
 		height: 60px;
-		margin: 1px 1px 2px;
-		
+		margin: 1px 1px 2px;		
 	}
-	
+
 	.logo img {
         float: left;
         display: flex;
@@ -361,7 +313,6 @@ de acordo com a tela que escolheu*/
         padding: 0px;
         height: 60px;
     }
-
     .btn-menu{
         float: right;
         cursor: pointer;
@@ -370,10 +321,8 @@ de acordo com a tela que escolheu*/
         display: flex;
         align-items: center;
 		margin-top: 1px;
-		margin-right: 50px;
-		
+		margin-right: 50px;	
     }
-
 	nav {
 		margin: 0;
 	}
@@ -382,7 +331,6 @@ de acordo com a tela que escolheu*/
 	.menu {
 		display: none;
 	}
-
 	.toggle {
         display: flex;
         align-items: center;
@@ -394,11 +342,9 @@ de acordo com a tela que escolheu*/
         padding: 0 15px;
         height: 60px;
 	}
-
 	.toggle:hover {
 		background-color: #020085;
 	}
-
 	[id^=drop]:checked + ul {  /*seletor de ids*/
 		display: block;
 	}
@@ -407,7 +353,6 @@ de acordo com a tela que escolheu*/
 		display: block;
 		width: 100%;
 		}
-
 	nav a:hover,
  	nav ul ul ul a {
 		background-color: #020085;
@@ -418,39 +363,31 @@ de acordo com a tela que escolheu*/
     nav ul ul ul a{	
 		color:#FFF;
 		font-size: 17px; 
-	}
-  
-  
+	} 
 	nav ul li ul li .toggle,
 	nav ul ul a {
 		background-color: #020085; 
 	}
-
 	nav ul ul {
 		float: none;
 		position:static;
 		color: #ffffff;
-	}
-		
+	}	
 	nav ul ul li:hover > ul,
 	nav ul li:hover > ul {
 		display: none;
-	}
-		
+	}	
 	nav ul ul li {
 		display: block;
 		width: 100%;
 	}
-
 	nav ul ul ul li {
 		position: static;
 	}
-
 	.typewriter h2{
 		font-size: 15px;
 		padding: 0px;
 	}
-	
 	.typewriter h3{
 		font-size: 10px;
 		padding: 1px;
@@ -461,18 +398,15 @@ de acordo com a tela que escolheu*/
 		margin-top: 10px;
 		color: #7a7a7a;
 		text-transform: uppercase;
-	  }
-	  
+	  } 
 	.text-image img{
 		width: 50%;
 		margin: 0px 40px 0px 100px
 	}
-
 	.feed{
 		display: inline-block;
 		margin: 50px 11% 11%;
 		margin-bottom: 20px;
-	
 	  }
 	  /*slider*/
 .slide{
@@ -484,13 +418,11 @@ de acordo com a tela que escolheu*/
 	z-index: 0;
 	background-color: #858585;
 }
-
 .hoverwrap0 {
 	position: relative;
 
 	text-transform: uppercase;
   }
-
   .rodapé ul{
 	display: flex;
 	justify-content: space-evenly;
@@ -500,13 +432,9 @@ de acordo com a tela que escolheu*/
 	padding: 5px;
 	margin: 1px 1% 10%;
 }
-
-
-
 	
 }
 /*basicamente é refazer o site mas selecionado elementos
 especificos e ajustando para que fique responsivo
 nao precisa usar todos os elementos, basta usar os elementos
 "pai" que tudo se altera automaticamente*/
-
