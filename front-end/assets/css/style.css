@@ -276,12 +276,14 @@ nav ul ul ul li {
 	color: #b4b4b4; 
 	text-transform: uppercase; 
 	padding: 20px; 
+	margin: 0% 30% 0% 30%;
    } 
    .rodapé h1{ 
 	color: #b4b4b4; 
 	text-transform: uppercase; 
 	text-align: center; 
 	margin-top: 75px; 
+	
    } 
    .rodapé { 
 	background-color: #444444; 
