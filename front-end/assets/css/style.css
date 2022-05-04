@@ -295,7 +295,7 @@ a opçao de ajustar o tamanho dos elementos quando o tamanho atingir
 768px como na linha abaixo, mas voce pode escolher outros tamanhos
 e entao selecionar os elementos e ajustar o tamanho deles
 de acordo com a tela que escolheu*/
-@media all and (max-width : 977px) {
+@media all and (max-width : 1096px) {
     .container{
         display: block;
 		height: 60px;
